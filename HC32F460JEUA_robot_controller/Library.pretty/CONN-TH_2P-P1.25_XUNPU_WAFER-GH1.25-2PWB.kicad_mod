@@ -1,0 +1,199 @@
+(footprint "CONN-TH_2P-P1.25_XUNPU_WAFER-GH1.25-2PWB"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "WAFER-GH1.25-2PWB")
+	(property "Reference" "REF**"
+		(at -1.5 -3.5 0)
+		(layer "F.Fab")
+		(uuid "0c3a512b-cf90-48c5-9632-d6c60e83ed2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN-TH_2P-P1.25_XUNPU_WAFER-GH1.25-2PWB"
+		(at 0 2.03403 0)
+		(layer "F.Fab")
+		(uuid "81be135f-ef5b-42c2-90cb-21c7be3c1fd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d209906-c08e-4029-9c6a-c6634c097357")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83b1d3a5-ce06-4e54-a8e6-333e5873bbb1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -1.55 -1.9)
+		(end -1.43 -1.9)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "4a84f75a-5b91-4752-b212-fee444b3605a")
+	)
+	(fp_line
+		(start -2.89 -1.29)
+		(end 2.86 -1.29)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "54f1df91-d6b5-4107-8c1d-1c41e4535558")
+	)
+	(fp_line
+		(start -2.89 2.76)
+		(end -2.89 -1.29)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "95319ebb-b067-4e77-8b22-f57cac96ebf0")
+	)
+	(fp_line
+		(start 2.86 -1.29)
+		(end 2.86 2.76)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "85f3314e-8c7f-45d3-9e90-e7abd1574b7b")
+	)
+	(fp_line
+		(start 2.86 2.76)
+		(end -2.89 2.76)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5f3b4fdd-42c4-46c7-8c43-09cc44303317")
+	)
+	(fp_poly
+		(pts
+			(xy -2.59 0.01) (xy -2.39 0.01) (xy -2.39 2.01) (xy -2.59 2.01) (xy -2.59 0.01)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "0fa8e32f-05c9-4556-bb29-a7d073a6ca25")
+	)
+	(fp_poly
+		(pts
+			(xy -0.74 -2.24) (xy -0.54 -2.24) (xy -0.54 -1.24) (xy -0.74 -1.24) (xy -0.74 -2.24)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "2deeb688-3074-4c09-8924-c5f30630821e")
+	)
+	(fp_poly
+		(pts
+			(xy 0.51 -2.24) (xy 0.71 -2.24) (xy 0.71 -1.24) (xy 0.51 -1.24) (xy 0.51 -2.24)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "4726e403-9862-4d82-b9ca-1d44c54c69f2")
+	)
+	(fp_poly
+		(pts
+			(xy 2.36 0.01) (xy 2.56 0.01) (xy 2.56 2.01) (xy 2.36 2.01) (xy 2.36 0.01)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "d9fce2d3-8657-4b46-bb75-6debe9ad4fbe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f782cde5-0e2a-4c7a-80c5-0fe0a4d2daf3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.64 -1.89)
+		(size 0.59 1.69)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4103d52e-9de6-4c8b-bcdd-ff9b7e5c386a")
+	)
+	(pad "2" smd rect
+		(at 0.61 -1.89)
+		(size 0.59 1.69)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b6fda6bd-fc65-4023-ae7d-b084b987a897")
+	)
+	(pad "3" smd rect
+		(at -2.49 1.01)
+		(size 0.99 2.79)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5fec4ba3-9375-49cb-ad90-7de558ee0985")
+	)
+	(pad "4" smd rect
+		(at 2.46 1.01)
+		(size 0.99 2.79)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8eabf1a5-71bb-474d-8221-6b7961309f3f")
+	)
+	(embedded_fonts no)
+	(model "../easyeda_convertlib.3dmodels/CONN-TH_2P-P1.25_XUNPU_WAFER-GH1.25-2PWB.step"
+		(offset
+			(xyz -0.005 -0.475 4.347)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
