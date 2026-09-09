@@ -1,2 +1,2 @@
 # sullivan_hardware
-Project for hardware design.
+Some open-source hardware designed by Kicad.
