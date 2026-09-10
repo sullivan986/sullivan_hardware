@@ -7,7 +7,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.0287 0)
 		(layer "F.Fab")
-		(uuid "658f5fb7-0ec8-45f4-a662-565bfce2f0b9")
+		(uuid "09b34617-f9ab-4c8c-baf7-5e9d015a8af9")
 		(effects
 			(font
 				(size 1 1)
@@ -18,7 +18,7 @@
 	(property "Value" "SOD993_L1.0-W0.6-LS1.0-RD"
 		(at 0 1.0033 0)
 		(layer "F.Fab")
-		(uuid "eca39506-93fc-48b1-8f59-243126af2ba4")
+		(uuid "86c7644c-3d7a-4ab1-a0cd-4f8d5ad8d5f9")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0120bdd0-f126-47ab-90ed-64d9a8de0eb1")
+		(uuid "654d75f2-0d5b-432d-a9b0-1c3ef158ac2e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fa33e270-0adb-4d41-8154-b1de4f823abb")
+		(uuid "d8e215a7-15fd-47d8-aeb3-8a3172aba08b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,7 +60,7 @@
 		)
 		(fill yes)
 		(layer "Dwgs.User")
-		(uuid "073b2384-9b5a-419d-84d8-129d6d5d145b")
+		(uuid "152455b5-91af-4062-a733-09df3a6aac15")
 	)
 	(fp_poly
 		(pts
@@ -72,7 +72,7 @@
 		)
 		(fill yes)
 		(layer "Dwgs.User")
-		(uuid "3293c996-4188-4b39-89a1-6d44a66871a8")
+		(uuid "2fb85895-4d95-4ea1-a2cc-c191424b918b")
 	)
 	(fp_poly
 		(pts
@@ -84,7 +84,7 @@
 		)
 		(fill yes)
 		(layer "Dwgs.User")
-		(uuid "7cd201ef-1d87-4368-af41-1453f1880ef0")
+		(uuid "ad992037-caa1-4e05-9bd4-f7e389f585cd")
 	)
 	(fp_line
 		(start -0.49 -0.32)
@@ -94,7 +94,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "616716d7-b7be-426d-b834-11f43742c599")
+		(uuid "6d0ddea1-3880-4601-b4ed-e4ce4faa87cc")
 	)
 	(fp_line
 		(start -0.49 0.28)
@@ -104,7 +104,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "11e1513e-fbd9-40ea-83de-c15a89e1f728")
+		(uuid "22262a49-0ea8-4a48-a878-8d9046c91740")
 	)
 	(fp_line
 		(start 0.51 -0.32)
@@ -114,7 +114,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d72df5a9-8c02-4bea-bcea-e75d16341510")
+		(uuid "49776f7f-95d8-4776-b7d2-f0302a1526e3")
 	)
 	(fp_line
 		(start 0.51 0.28)
@@ -124,7 +124,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8e961904-767c-465c-be9e-1e8b668184c7")
+		(uuid "a0378c4d-e3a7-44c3-b091-bb1056e8b5cc")
 	)
 	(fp_circle
 		(center -0.6 0.4)
@@ -135,7 +135,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "52927be1-29a6-4403-a425-7397f869fb97")
+		(uuid "01ba8a1c-b4f8-4d5c-bb26-90d260c859e0")
 	)
 	(fp_poly
 		(pts
@@ -147,7 +147,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "e42ba642-ccd2-4540-b168-f72c22e12c8a")
+		(uuid "9d6832df-07a7-4654-9918-97547c86da12")
 	)
 	(fp_poly
 		(pts
@@ -159,7 +159,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "b9b46207-1eab-4b85-90c4-61d192a31735")
+		(uuid "0d3f8117-eed8-4251-a1a4-abc45dca49fc")
 	)
 	(fp_poly
 		(pts
@@ -171,7 +171,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "24805b71-dffa-42eb-8b8f-dbdb68e87c68")
+		(uuid "bce2bc1d-3c12-4c6b-9ca0-5a82ef38a083")
 	)
 	(fp_poly
 		(pts
@@ -183,7 +183,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "1e16112c-58df-4378-a15b-29cd26e1fd93")
+		(uuid "851a20d9-211d-4698-9f92-7bfb028de839")
 	)
 	(fp_poly
 		(pts
@@ -195,12 +195,12 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "3389db0e-9715-409e-ab12-5352405abb89")
+		(uuid "e59f0b7a-8b8b-4c07-b233-534d15260384")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -2.4 2.4 0)
 		(layer "F.Fab")
-		(uuid "9dfdc517-1d12-49b4-9146-b91f00de8fbd")
+		(uuid "cef077ab-e41d-4a6d-acb6-98904b1a2e75")
 		(effects
 			(font
 				(size 1 1)
@@ -212,13 +212,13 @@
 		(at -0.32 -0.02)
 		(size 0.39 0.59)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "d29f0cd8-29f4-4242-acfa-37f43f2d707d")
+		(uuid "f0450ef3-70b9-4c28-ae2a-e5ffe2a2179c")
 	)
 	(pad "2" smd rect
 		(at 0.33 -0.02)
 		(size 0.39 0.59)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "47a0df0f-1671-41f9-bae9-0f513042df9e")
+		(uuid "3ccc4467-6531-4a0e-9d9f-08cd28dec73f")
 	)
 	(embedded_fonts no)
 	(embedded_files
@@ -2380,17 +2380,6 @@
 				RF0pjfzBHcpn5EMpTeGtJ0BFmN4MIun+3QYyV4cPnIdughrDtivZu4+Di7c=|
 			)
 			(checksum "AC48E3CE228DA1E193FC84C02E4D0993")
-		)
-	)
-	(model "${KIPRJMOD}/3d_lib/SOD993_L1.0-W0.6-H0.3-LS1.0-RD.step"
-		(offset
-			(xyz 0 0.02 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -0 -0 -0)
 		)
 	)
 	(model "kicad-embed://SOD993_L1.0-W0.6-H0.3-LS1.0-RD.step"
