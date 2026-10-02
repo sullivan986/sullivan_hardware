@@ -10,6 +10,429 @@
 		(company "Firefly Workshop")
 	)
 	(lib_symbols
+		(symbol "Library:ASMD2920-700-30V"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ASMD2920-700-30V"
+				(at 5.08 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:F2920"
+				(at 5.08 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "ASMD2920-700-30V"
+				(at 5.842 -4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "JDTfuse(集电通)"
+				(at 5.08 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C55218557"
+				(at 5.08 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ASMD2920-700-30V_1_1"
+				(rectangle
+					(start 2.54 1.02)
+					(end 7.62 -1.02)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Library:BSZ088N03MS G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 1.27 7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BSZ088N03MS G"
+				(at 1.524 -7.874 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:PG-TSDSON-8_L3.3-W3.3-P0.65-BL"
+				(at 1.524 -10.414 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Infineon-Technologies-BSZ088N03MS-G_C534684.html"
+				(at 7.874 -16.764 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "BSZ088N03MS G"
+				(at -6.35 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Infineon(英飞凌)"
+				(at 7.874 -19.304 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C534684"
+				(at 7.874 -21.844 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BSZ088N03MS G_1_1"
+				(rectangle
+					(start -3.81 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.54 5.08)
+					(radius 0.38)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "comment"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 0.001 0.001)
+							(thickness 0.1)
+							(bold yes)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 3.81 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 1.27 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -1.27 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -3.81 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 -5.08 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 5.08 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library:C0402"
 			(pin_numbers
 				(hide yes)
@@ -44,7 +467,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(property "Footprint" "Library:C_0402_1005Metric"
 				(at 0.9652 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -199,7 +622,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "Library:C_0603_1608Metric"
 				(at 0.9652 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1718,6 +2141,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Library:L0630"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L0630"
+				(at 1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:L_Changjiang_FXL0630"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L0630_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L0630_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library:LMR51450SDRRR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2169,7 +2770,7 @@
 				(pin unspecified line
 					(at 0 0 0)
 					(length 3.81)
-					(name "1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2187,7 +2788,7 @@
 				(pin unspecified line
 					(at 10.16 0 180)
 					(length 3.81)
-					(name "2"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2237,7 +2838,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(property "Footprint" "Library:R_0402_1005Metric"
 				(at -1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2599,6 +3200,311 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Library:TPS54335ADRCR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 12.7 5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS54335ADRCR"
+				(at 12.7 -13.208 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:VSON-10_L3.0-W3.0-P0.50-TL-EP"
+				(at 12.7 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/DC-DC-Converters_Texas-Instruments-Texas-Instruments-TPS54335ADRCR_C473400.html"
+				(at 12.7 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "TPS54335ADRCR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "TI(德州仪器)"
+				(at 12.7 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C473400"
+				(at 12.7 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPS54335ADRCR_1_1"
+				(rectangle
+					(start 2.54 3.81)
+					(end 22.86 -11.43)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 3.81 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "PH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -10.16 180)
+					(length 2.54)
+					(name "VSENSE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -7.62 180)
+					(length 2.54)
+					(name "COMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -5.08 180)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -2.54 180)
+					(length 2.54)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 0 180)
+					(length 2.54)
+					(name "RT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 2.54 180)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3393,8 +4299,8 @@
 		(uuid "18a86e9e-68e8-4262-b02f-14f637aeff59")
 	)
 	(rectangle
-		(start 12.7 140.97)
-		(end 105.41 196.85)
+		(start 12.7 115.57)
+		(end 95.25 146.05)
 		(stroke
 			(width 0)
 			(type default)
@@ -3406,7 +4312,7 @@
 	)
 	(rectangle
 		(start 12.7 69.85)
-		(end 105.41 125.73)
+		(end 95.25 114.3)
 		(stroke
 			(width 0)
 			(type default)
@@ -3416,39 +4322,82 @@
 		)
 		(uuid "da61a196-853b-44aa-a25c-ff1613c5fa8d")
 	)
-	(text "24V_IN"
+	(text "24V_IN->防过流->防反接->防过压"
 		(exclude_from_sim no)
-		(at 89.408 66.294 0)
+		(at 68.072 66.548 0)
 		(effects
 			(font
-				(face "Cascadia Code NF")
-				(size 6 6)
-				(thickness 0.75)
+				(face "KiCad Font")
+				(size 2.8194 2.8194)
+				(thickness 0.5639)
 				(bold yes)
-				(italic yes)
 			)
 		)
-		(uuid "791a97b3-29ee-47bd-9bd4-0dc42f782028")
+		(uuid "4bb575e6-af91-463b-abe7-7c6b9a331e9e")
 	)
-	(text "24V->12V\n"
+	(text "24V->12V"
 		(exclude_from_sim no)
-		(at 83.82 195.072 0)
+		(at 86.36 144.018 0)
 		(effects
 			(font
-				(face "Cascadia Code NF")
-				(size 6 6)
-				(thickness 0.75)
+				(face "KiCad Font")
+				(size 2.032 2.032)
+				(thickness 0.4064)
 				(bold yes)
 				(italic yes)
 			)
 		)
-		(uuid "8cf574a7-58d7-4a0d-bfb0-77c6b13d66db")
+		(uuid "6509342d-c62c-4d64-a874-1775f99bdb79")
+	)
+	(text "USB_UART"
+		(exclude_from_sim no)
+		(at 86.868 112.522 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "e17ee42e-d655-4816-98e6-a6bcf826ce1e")
 	)
 	(junction
-		(at 166.37 120.65)
+		(at 72.39 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02eab33f-59e0-486d-ba64-190a5d28c42e")
+	)
+	(junction
+		(at 29.21 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "042ee2ce-52e3-4cc3-8304-f68901d53216")
+	)
+	(junction
+		(at 43.18 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "065143d2-58a7-479a-b27b-0b18e914a334")
+	)
+	(junction
+		(at 16.51 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d82ff9c-8dac-453c-ae7f-4273fd5858a6")
+	)
+	(junction
+		(at 72.39 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ef3fe9e-47b8-47c6-9223-9e4336773708")
+	)
+	(junction
+		(at 88.9 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "153e7cb4-09d9-48dd-bec0-8a1d97dd9088")
 	)
 	(junction
 		(at 64.77 71.12)
@@ -3457,10 +4406,46 @@
 		(uuid "1701aa0e-26c9-4b94-af7d-c6778485b257")
 	)
 	(junction
-		(at 143.51 123.19)
+		(at 72.39 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1be9d697-60fc-458f-b38e-4a85614483b2")
+	)
+	(junction
+		(at 31.75 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d6fd93b-e553-42ea-86c3-124e985deebf")
+	)
+	(junction
+		(at 49.53 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e454e25-9683-441e-99a8-f681507bfc57")
+	)
+	(junction
+		(at 25.4 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26f54a9e-4148-45df-abfb-1490515f4156")
+	)
+	(junction
+		(at 49.53 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28afc0ee-82d2-4e40-b9e9-fc379d1920af")
+	)
+	(junction
+		(at 60.96 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38fac846-cd2f-4706-8be7-51fb804cda7e")
+	)
+	(junction
+		(at 25.4 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cf981bd-879e-4114-9bec-c2e6ef28f20b")
 	)
 	(junction
 		(at 45.72 71.12)
@@ -3469,10 +4454,58 @@
 		(uuid "3d564b31-d6aa-40f9-8b42-e5b7d584e116")
 	)
 	(junction
+		(at 82.55 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ec3222e-00e0-4341-9250-1687b974d08d")
+	)
+	(junction
+		(at 262.89 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "403a36b4-91f6-4888-87f2-cf8cc72f687f")
+	)
+	(junction
+		(at 88.9 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "403af7ef-c859-4fbd-a383-d8ecee22a420")
+	)
+	(junction
 		(at 38.1 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "418cd40b-b8de-4239-94ce-cbec20452a35")
+	)
+	(junction
+		(at 247.65 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4af23593-be25-494b-9916-680fc1e1cf8e")
+	)
+	(junction
+		(at 262.89 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c0d83f9-52d4-484d-b0d4-74fd75910732")
+	)
+	(junction
+		(at 82.55 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f02c820-a7db-476e-ba41-5ea189f2ffc1")
+	)
+	(junction
+		(at 16.51 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f23784e-e8ed-432a-8a77-ac8d142847d3")
+	)
+	(junction
+		(at 17.78 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fd8abf8-51a5-44c2-8412-14370dd81b06")
 	)
 	(junction
 		(at 45.72 78.74)
@@ -3485,6 +4518,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "564a4c90-d542-4e22-ba03-5eda212d071e")
+	)
+	(junction
+		(at 60.96 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5973d8b0-ce81-45b3-a1d6-e68155785956")
 	)
 	(junction
 		(at 58.42 71.12)
@@ -3505,16 +4544,52 @@
 		(uuid "7439c0b5-fd45-49aa-a523-d3a236a2ccea")
 	)
 	(junction
+		(at 45.72 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7619ee78-a112-44ac-a284-d016e5bdb835")
+	)
+	(junction
+		(at 45.72 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76a2fe78-af2d-4008-b0e2-2e4efd58f28a")
+	)
+	(junction
+		(at 17.78 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a9534e2-bb37-43bc-b13a-a809e627e5a8")
+	)
+	(junction
 		(at 64.77 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b9b3739-b1e7-4073-a4ee-31a313d19241")
 	)
 	(junction
-		(at 16.51 27.94)
+		(at 26.67 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8ebe2d35-af5e-4dc1-8242-93d2069e8dc8")
+		(uuid "8de3828e-8ad4-44f8-980e-4da19ae0b981")
+	)
+	(junction
+		(at 34.29 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ab67024-0bb1-4be5-abb8-2115a5005dc7")
+	)
+	(junction
+		(at 229.87 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a150d50f-77a0-4bfa-a620-19ed0380a5a7")
+	)
+	(junction
+		(at 45.72 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2bb3558-5e6e-4ccd-aa1c-4cd0cbb9aa97")
 	)
 	(junction
 		(at 43.18 83.82)
@@ -3523,14 +4598,54 @@
 		(uuid "c702d30a-bf59-4213-9469-71285bebd9f1")
 	)
 	(junction
+		(at 60.96 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7da4f6f-cf0e-4776-bf32-22bcc3ef42c9")
+	)
+	(junction
+		(at 43.18 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc4bcb20-cebe-4d28-bbd4-9305ed7d407d")
+	)
+	(junction
 		(at 52.07 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf9711d7-cc9f-4a50-bfda-0e2ca79b1b76")
 	)
+	(junction
+		(at 276.86 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfb7171c-465d-4d7e-8b2d-32082d6628a1")
+	)
+	(junction
+		(at 22.86 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e11c5f08-f819-479c-8f28-11275ff01ff2")
+	)
+	(junction
+		(at 57.15 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2552b8e-99de-4c48-bea1-8d68a67d2155")
+	)
+	(junction
+		(at 76.2 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e658ea1c-04a5-4c53-b15a-618c153d1d45")
+	)
 	(no_connect
 		(at 68.58 88.9)
 		(uuid "41d52bbd-3bf1-4b4b-8239-7432ec24c163")
+	)
+	(no_connect
+		(at 72.39 135.89)
+		(uuid "7d97e540-d23e-4925-8992-61e480641b3d")
 	)
 	(no_connect
 		(at 68.58 91.44)
@@ -3545,12 +4660,20 @@
 		(uuid "ab951648-e60f-41b7-b03b-d3b918438e69")
 	)
 	(no_connect
+		(at 72.39 133.35)
+		(uuid "b2cf81b3-4f40-4852-93df-69ebae0b88b7")
+	)
+	(no_connect
 		(at 68.58 101.6)
 		(uuid "c98cd70a-e00e-446f-bcf0-d19e817f2560")
 	)
 	(no_connect
 		(at 68.58 93.98)
 		(uuid "dd932835-5a66-4c86-91d9-01827cf6b186")
+	)
+	(no_connect
+		(at 68.58 104.14)
+		(uuid "e33488bf-2482-4c27-b950-dce8da95b404")
 	)
 	(no_connect
 		(at 68.58 96.52)
@@ -3582,6 +4705,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 19.05) (xy 60.96 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a8e1dfb-2a50-4883-a47c-020521d547c5")
+	)
+	(wire
+		(pts
 			(xy 36.83 99.06) (xy 38.1 97.79)
 		)
 		(stroke
@@ -3592,7 +4725,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 120.65) (xy 143.51 123.19)
+			(xy 49.53 125.73) (xy 49.53 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3602,13 +4735,63 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 120.65) (xy 166.37 123.19)
+			(xy 72.39 125.73) (xy 72.39 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1f8eef43-9809-4f2e-b7e2-197526d0d199")
+	)
+	(wire
+		(pts
+			(xy 262.89 110.49) (xy 265.43 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d32bb6-540c-4bc5-8a9b-0bc5059f8c00")
+	)
+	(wire
+		(pts
+			(xy 72.39 128.27) (xy 72.39 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b2f2b1-18a2-4fef-97f8-5351ff96a407")
+	)
+	(wire
+		(pts
+			(xy 25.4 123.19) (xy 31.75 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24eecfc5-02a6-4aab-b1ff-25132c54db42")
+	)
+	(wire
+		(pts
+			(xy 265.43 102.87) (xy 265.43 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0f57d1-2478-46f2-9361-702dc893b434")
+	)
+	(wire
+		(pts
+			(xy 16.51 15.24) (xy 17.78 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d86f18d-4139-4446-b428-7c6c62875341")
 	)
 	(wire
 		(pts
@@ -3632,23 +4815,43 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 27.94) (xy 31.75 27.94)
+			(xy 274.32 113.03) (xy 276.86 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f1b74da-9c47-40bb-ad1f-e6da9cf4dbae")
+		(uuid "2feae3d6-3b31-49df-a996-6712f5bcc22e")
 	)
 	(wire
 		(pts
-			(xy 271.78 49.53) (xy 256.54 49.53)
+			(xy 283.21 48.26) (xy 267.97 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2ff33610-3a70-41ea-b352-d4c1d422b86d")
+	)
+	(wire
+		(pts
+			(xy 16.51 130.81) (xy 22.86 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "323c8052-c955-455c-a3f6-2f8dea6522a6")
+	)
+	(wire
+		(pts
+			(xy 184.15 144.78) (xy 182.88 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "326ecd4c-2853-45e8-a2e4-58354b13cc03")
 	)
 	(wire
 		(pts
@@ -3662,7 +4865,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 96.52) (xy 93.98 96.52)
+			(xy 72.39 104.14) (xy 92.71 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3672,13 +4875,73 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 118.11) (xy 166.37 120.65)
+			(xy 82.55 130.81) (xy 88.9 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c1adcce-53c1-4baa-93d3-046b383562b2")
+	)
+	(wire
+		(pts
+			(xy 229.87 109.22) (xy 234.95 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cca70b8-9cda-40ac-93a9-0c80bff1f5d0")
+	)
+	(wire
+		(pts
+			(xy 43.18 123.19) (xy 49.53 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d6fe413-5339-48b0-86d5-92f48bd485da")
+	)
+	(wire
+		(pts
+			(xy 45.72 20.32) (xy 45.72 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef09367-ac66-48ae-92ad-54fa97a40f9c")
+	)
+	(wire
+		(pts
+			(xy 234.95 116.84) (xy 234.95 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef372d3-c120-4d49-9747-7f3304cb6abf")
+	)
+	(wire
+		(pts
+			(xy 72.39 123.19) (xy 72.39 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3f76a9ef-6507-4796-8b41-a72d1c87e5da")
+	)
+	(wire
+		(pts
+			(xy 275.59 100.33) (xy 276.86 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b19909-17be-44e7-8b5d-db23eed5b0de")
 	)
 	(wire
 		(pts
@@ -3692,13 +4955,13 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 19.05) (xy 24.13 19.05)
+			(xy 41.91 133.35) (xy 43.18 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a45ae36-2043-4f79-b339-da40c6f5fabb")
+		(uuid "4803e5dd-0e01-4a14-bb24-7632b9ddcaac")
 	)
 	(wire
 		(pts
@@ -3712,6 +4975,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 133.35) (xy 45.72 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b5a178-5c76-4133-bac2-e795ae1ad60c")
+	)
+	(wire
+		(pts
 			(xy 76.2 71.12) (xy 64.77 71.12)
 		)
 		(stroke
@@ -3722,7 +4995,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 34.29) (xy 256.54 34.29)
+			(xy 283.21 33.02) (xy 267.97 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3752,6 +5025,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 110.49) (xy 265.43 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a18dae-1e16-4706-a8d9-baa9d2f66569")
+	)
+	(wire
+		(pts
 			(xy 35.56 83.82) (xy 48.26 83.82)
 		)
 		(stroke
@@ -3762,7 +5045,17 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 57.15) (xy 256.54 57.15)
+			(xy 41.91 130.81) (xy 43.18 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63954024-7b18-4397-9544-d0e694757ced")
+	)
+	(wire
+		(pts
+			(xy 283.21 55.88) (xy 267.97 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3782,17 +5075,57 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 104.14) (xy 68.58 104.14)
+			(xy 17.78 15.24) (xy 25.4 15.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6eb1160a-8aff-45b6-8382-c3be5ee1154e")
+		(uuid "6af89716-e711-47a5-8792-2d45f33ac36a")
 	)
 	(wire
 		(pts
-			(xy 73.66 93.98) (xy 93.98 93.98)
+			(xy 262.89 102.87) (xy 265.43 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b4ff160-c843-4a60-b973-d6634b171061")
+	)
+	(wire
+		(pts
+			(xy 72.39 123.19) (xy 88.9 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c01263d-b968-4266-977f-d35c53d4ea28")
+	)
+	(wire
+		(pts
+			(xy 57.15 165.1) (xy 57.15 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d2ffea1-07cc-4230-b5d5-89ea4d7124cb")
+	)
+	(wire
+		(pts
+			(xy 15.24 29.21) (xy 15.24 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dba8d3d-56fe-4608-afdd-8e4fac07ac7a")
+	)
+	(wire
+		(pts
+			(xy 72.39 101.6) (xy 92.71 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3802,13 +5135,63 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 19.05) (xy 16.51 27.94)
+			(xy 57.15 167.64) (xy 57.15 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78d24f32-c6c0-4a1d-b787-d8da46b3cd88")
+		(uuid "70e37e3c-0da3-4614-b685-fea1d21a056d")
+	)
+	(wire
+		(pts
+			(xy 43.18 130.81) (xy 49.53 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712736cb-a819-45b6-b50f-5ca9bfdc87da")
+	)
+	(wire
+		(pts
+			(xy 26.67 20.32) (xy 26.67 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "719c26d2-f63e-4070-8c3b-a6cbe445815c")
+	)
+	(wire
+		(pts
+			(xy 16.51 30.48) (xy 15.24 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7498058d-c5cc-4cd2-a8cc-2e1e4d77711b")
+	)
+	(wire
+		(pts
+			(xy 22.86 130.81) (xy 25.4 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "766971a0-60cf-46f3-bc34-f37baf2728fa")
+	)
+	(wire
+		(pts
+			(xy 17.78 30.48) (xy 16.51 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "788767a2-9e26-4660-be72-80c6359d34e1")
 	)
 	(wire
 		(pts
@@ -3819,6 +5202,16 @@
 			(type default)
 		)
 		(uuid "791f85d2-f46b-4bff-a1ff-6e2617a15292")
+	)
+	(wire
+		(pts
+			(xy 15.24 16.51) (xy 16.51 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d9e7ed-0779-4ad5-a894-5427af472780")
 	)
 	(wire
 		(pts
@@ -3842,6 +5235,36 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 138.43) (xy 34.29 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84b47d77-ecf3-4bf3-b97c-caffc315a60f")
+	)
+	(wire
+		(pts
+			(xy 49.53 139.7) (xy 48.26 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879fe670-5208-40f4-ae64-e82236a70403")
+	)
+	(wire
+		(pts
+			(xy 26.67 20.32) (xy 45.72 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a3f8b7a-da7f-45b9-bde9-13956a230e7a")
+	)
+	(wire
+		(pts
 			(xy 60.96 78.74) (xy 64.77 78.74)
 		)
 		(stroke
@@ -3849,6 +5272,26 @@
 			(type default)
 		)
 		(uuid "8d860e11-2199-4206-bc6f-71065e2114b8")
+	)
+	(wire
+		(pts
+			(xy 173.99 144.78) (xy 175.26 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd2e8bc-8568-4620-b40d-8140db700b8d")
+	)
+	(wire
+		(pts
+			(xy 31.75 130.81) (xy 34.29 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f6da636-6bb8-49b0-8d30-c3f3bccd9e61")
 	)
 	(wire
 		(pts
@@ -3862,6 +5305,26 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 16.51) (xy 25.4 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93677423-23aa-4632-8347-67ff369d6767")
+	)
+	(wire
+		(pts
+			(xy 49.53 135.89) (xy 49.53 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9841bf75-1dd7-4faf-a418-34ae8ca74419")
+	)
+	(wire
+		(pts
 			(xy 260.35 110.49) (xy 262.89 110.49)
 		)
 		(stroke
@@ -3869,6 +5332,16 @@
 			(type default)
 		)
 		(uuid "9ca1bcba-d497-4a55-ae56-f66fde9b5037")
+	)
+	(wire
+		(pts
+			(xy 45.72 133.35) (xy 49.53 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cb7829d-0383-47ec-b685-1fc9609f902a")
 	)
 	(wire
 		(pts
@@ -3892,6 +5365,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 133.35) (xy 43.18 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47f14fd-297e-45fe-8a43-a33d577564e4")
+	)
+	(wire
+		(pts
 			(xy 48.26 83.82) (xy 48.26 88.9)
 		)
 		(stroke
@@ -3899,6 +5382,26 @@
 			(type default)
 		)
 		(uuid "a4b3ae99-0e77-469c-a0ae-5a1552e76d8b")
+	)
+	(wire
+		(pts
+			(xy 20.32 123.19) (xy 25.4 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af2c818d-e0a3-4edc-b549-579a9b6f2547")
+	)
+	(wire
+		(pts
+			(xy 247.65 95.25) (xy 247.65 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe64976-5d87-4ced-b25c-d4fa7c187741")
 	)
 	(wire
 		(pts
@@ -3912,6 +5415,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 95.25) (xy 247.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b42097f9-e7e7-4673-a295-8f835b43b6e4")
+	)
+	(wire
+		(pts
 			(xy 44.45 78.74) (xy 43.18 80.01)
 		)
 		(stroke
@@ -3919,6 +5432,16 @@
 			(type default)
 		)
 		(uuid "b4a72a1f-1769-4da5-989e-cb57ff31dfcc")
+	)
+	(wire
+		(pts
+			(xy 60.96 26.67) (xy 60.96 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ac7d66-f1a8-46aa-9d7a-092faa60421a")
 	)
 	(wire
 		(pts
@@ -3932,6 +5455,26 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 140.97) (xy 48.26 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb0d0b26-7b9a-4e5f-bedc-4fbe3cf43240")
+	)
+	(wire
+		(pts
+			(xy 41.91 138.43) (xy 43.18 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be88931e-22ff-489c-baa1-41b165f6faee")
+	)
+	(wire
+		(pts
 			(xy 52.07 71.12) (xy 58.42 71.12)
 		)
 		(stroke
@@ -3942,13 +5485,33 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 123.19) (xy 143.51 125.73)
+			(xy 276.86 101.6) (xy 276.86 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5c5c5c9-7735-4edb-887a-e5cb965a521d")
+	)
+	(wire
+		(pts
+			(xy 49.53 128.27) (xy 49.53 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c5d67587-8573-46d0-8d2c-a9e612bf23d8")
+	)
+	(wire
+		(pts
+			(xy 17.78 27.94) (xy 17.78 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c663fd04-95be-466c-b54f-603c62e7994c")
 	)
 	(wire
 		(pts
@@ -3962,6 +5525,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 22.86) (xy 45.72 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c781bd0f-7f62-480a-a931-3b8e3cd6350f")
+	)
+	(wire
+		(pts
 			(xy 260.35 102.87) (xy 262.89 102.87)
 		)
 		(stroke
@@ -3969,6 +5542,26 @@
 			(type default)
 		)
 		(uuid "c81fd8ee-825b-497d-9234-a5f73c64147c")
+	)
+	(wire
+		(pts
+			(xy 25.4 130.81) (xy 31.75 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6de629-f313-48a4-9988-6160527b1db9")
+	)
+	(wire
+		(pts
+			(xy 274.32 100.33) (xy 275.59 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d32debf8-a63c-4cca-b589-1acdd4ed5b2d")
 	)
 	(wire
 		(pts
@@ -4002,7 +5595,17 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 36.83) (xy 256.54 36.83)
+			(xy 16.51 138.43) (xy 22.86 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de081619-dc1c-4b1d-92bb-c9800f0860f9")
+	)
+	(wire
+		(pts
+			(xy 283.21 35.56) (xy 267.97 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4019,6 +5622,36 @@
 			(type default)
 		)
 		(uuid "e2cdfd9f-3f88-4a6b-a167-93487b681380")
+	)
+	(wire
+		(pts
+			(xy 60.96 24.13) (xy 60.96 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e357c9b0-fde5-4c88-9f60-ccf4ca5fd537")
+	)
+	(wire
+		(pts
+			(xy 276.86 116.84) (xy 276.86 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6eb4ac3-1d82-4d0b-b14d-ae4610d81e04")
+	)
+	(wire
+		(pts
+			(xy 34.29 130.81) (xy 34.29 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8a5f156-3dcc-4606-87ff-1bfe660eb057")
 	)
 	(wire
 		(pts
@@ -4052,6 +5685,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 21.59) (xy 60.96 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5809666-2df2-479e-bfe1-f2a692d079fa")
+	)
+	(wire
+		(pts
 			(xy 39.37 72.39) (xy 40.64 71.12)
 		)
 		(stroke
@@ -4062,6 +5705,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 130.81) (xy 82.55 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f95130-969c-4a9a-b469-7adac0be6541")
+	)
+	(wire
+		(pts
 			(xy 39.37 80.01) (xy 39.37 72.39)
 		)
 		(stroke
@@ -4069,16 +5722,6 @@
 			(type default)
 		)
 		(uuid "fed83530-e77a-494a-941f-90ec7887059b")
-	)
-	(wire
-		(pts
-			(xy 16.51 27.94) (xy 19.05 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffc9409d-630f-42a8-80a8-297f66838d7f")
 	)
 	(image
 		(at 270.51 173.99)
@@ -12863,7 +14506,7 @@
 		)
 	)
 	(label "CH343_RX"
-		(at 93.98 93.98 180)
+		(at 92.71 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12873,7 +14516,7 @@
 		(uuid "219bb781-51bd-40b1-a00a-5047a1c407fd")
 	)
 	(label "MCU_URX"
-		(at 271.78 49.53 180)
+		(at 283.21 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12883,7 +14526,7 @@
 		(uuid "2e350a05-d164-4a5b-83e1-4cb69491b4b4")
 	)
 	(label "MCU_UTX"
-		(at 73.66 93.98 0)
+		(at 72.39 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12893,7 +14536,7 @@
 		(uuid "38fe4d62-4165-46f9-b1f0-be6d68d2299e")
 	)
 	(label "MCU_CAN_TX"
-		(at 271.78 34.29 180)
+		(at 283.21 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12901,16 +14544,6 @@
 			(justify right bottom)
 		)
 		(uuid "4ffae821-f75d-46ce-aa6b-80ea4b15d8bd")
-	)
-	(label "CH343_RTS"
-		(at 81.28 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "59f67c48-f5d8-4f5f-973f-d701112e1792")
 	)
 	(label "MCU_CAN_TX"
 		(at 220.98 101.6 0)
@@ -12923,7 +14556,7 @@
 		(uuid "602ecf98-496a-4c56-a645-ec15a02b611a")
 	)
 	(label "MCU_UTX"
-		(at 271.78 57.15 180)
+		(at 283.21 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12933,7 +14566,7 @@
 		(uuid "607bac52-25f9-402a-a0ad-94a9a5b2248b")
 	)
 	(label "CH343_TX"
-		(at 93.98 96.52 180)
+		(at 92.71 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12973,7 +14606,7 @@
 		(uuid "b02fc5ec-76d1-4cde-aa99-573ee88fda23")
 	)
 	(label "MCU_URX"
-		(at 73.66 96.52 0)
+		(at 72.39 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12983,7 +14616,7 @@
 		(uuid "d6e5c3ce-942f-41b3-b35d-f2bcb6e58776")
 	)
 	(label "MCU_CAN_RX"
-		(at 271.78 36.83 180)
+		(at 283.21 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12994,7 +14627,7 @@
 	)
 	(symbol
 		(lib_id "Library:C0603")
-		(at 179.07 118.11 0)
+		(at 82.55 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13004,7 +14637,7 @@
 		(dnp no)
 		(uuid "02774ee7-c936-49a6-b026-2ec105a5d482")
 		(property "Reference" "C7"
-			(at 179.832 116.078 0)
+			(at 83.312 124.968 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13015,7 +14648,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 179.705 120.65 0)
+			(at 83.185 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13025,8 +14658,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 180.0352 121.92 0)
+		(property "Footprint" "Library:C_0603_1608Metric"
+			(at 83.5152 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13037,7 +14670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 118.11 0)
+			(at 82.55 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13048,7 +14681,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 179.07 118.11 0)
+			(at 82.55 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13176,7 +14809,7 @@
 	)
 	(symbol
 		(lib_id "Library:LMR51450SDRRR")
-		(at 143.51 118.11 0)
+		(at 49.53 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13184,10 +14817,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "039d80a3-1c6a-409a-8f8e-8b8b1c59bc3d")
 		(property "Reference" "U3"
-			(at 154.94 110.49 0)
+			(at 61.214 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13197,7 +14829,7 @@
 			)
 		)
 		(property "Value" "LMR51450SDRRR"
-			(at 154.94 113.03 0)
+			(at 61.214 119.634 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13207,7 +14839,7 @@
 			)
 		)
 		(property "Footprint" "Library:WSON-12_L3.0-W3.0-P0.50-TL-EP-2"
-			(at 154.94 143.51 0)
+			(at 60.96 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13218,7 +14850,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 118.11 0)
+			(at 49.53 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13229,7 +14861,7 @@
 			)
 		)
 		(property "Description" "LMR51450SDRRR"
-			(at 143.51 118.11 0)
+			(at 49.53 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13240,7 +14872,7 @@
 			)
 		)
 		(property "Manufacturer" "TI(德州仪器)"
-			(at 154.94 146.05 0)
+			(at 60.96 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13251,7 +14883,7 @@
 			)
 		)
 		(property "LCSC Part" "C6890985"
-			(at 154.94 148.59 0)
+			(at 60.96 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13311,7 +14943,7 @@
 	)
 	(symbol
 		(lib_id "Library:C0603")
-		(at 172.72 118.11 0)
+		(at 76.2 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13321,7 +14953,7 @@
 		(dnp no)
 		(uuid "09d64beb-4a06-4362-b6d6-85727d5d4692")
 		(property "Reference" "C1"
-			(at 173.482 116.078 0)
+			(at 76.962 124.968 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13332,7 +14964,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 173.355 120.65 0)
+			(at 76.835 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13342,8 +14974,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 173.6852 121.92 0)
+		(property "Footprint" "Library:C_0603_1608Metric"
+			(at 77.1652 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13354,7 +14986,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 118.11 0)
+			(at 76.2 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13365,7 +14997,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 172.72 118.11 0)
+			(at 76.2 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13385,6 +15017,433 @@
 			(project "HC32F460JEUA_robot_controller"
 				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:XT30PW-M")
+		(at 274.32 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b395c16-fe32-4cd8-9179-ee9ec3cbb33c")
+		(property "Reference" "CN2"
+			(at 268.224 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "XT30PW-M"
+			(at 262.636 113.538 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+			(at 284.48 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_Changzhou-Amass-Elec-XT30PW-MMale-head_C431092.html"
+			(at 287.02 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "XT30PW-M"
+			(at 274.32 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "AMASS(艾迈斯)"
+			(at 289.56 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C431092"
+			(at 292.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "cf027ba3-7c81-4077-87df-14508d0f9308")
+		)
+		(pin "1"
+			(uuid "8a31b4aa-4717-4b62-bdae-db35ee242fe0")
+		)
+		(pin "2"
+			(uuid "88bd9bab-09f9-4b6e-975f-2bdcae5f3bac")
+		)
+		(pin "4"
+			(uuid "bc2b1689-9834-4ae3-b23b-4e95cf357bef")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:R0402")
+		(at 179.07 144.78 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b8fe7c6-361c-4ce1-8197-eb6593fcb83e")
+		(property "Reference" "R5"
+			(at 179.07 142.748 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 179.07 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:R_0402_1005Metric"
+			(at 179.07 146.558 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "226da9a1-8e41-4e87-a8a6-7a4de4357120")
+		)
+		(pin "2"
+			(uuid "bc2bf7f4-7496-49a2-981f-4d1236e1279f")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "10357508-5e4d-419c-b51f-084538532c9b")
+		(property "Reference" "#PWR021"
+			(at 88.9 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b011ce3-415e-45dd-a3bc-d68c91225d08")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:C0603")
+		(at 25.4 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1135825e-98c5-403d-905e-49fc063cd9b4")
+		(property "Reference" "C13"
+			(at 26.162 124.968 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 26.035 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:C_0603_1608Metric"
+			(at 26.3652 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 25.4 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fde6baf6-ff45-4a09-846b-b763d4dee9e7")
+		)
+		(pin "1"
+			(uuid "f7f97137-fd2a-454c-aee7-ee4b5edd799e")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:R0402")
+		(at 29.21 134.62 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17066415-708c-405b-8f30-8f2716ceab01")
+		(property "Reference" "R8"
+			(at 31.496 133.096 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 29.21 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:R_0402_1005Metric"
+			(at 30.988 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 29.21 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3f1598c5-e153-4e3c-a5e7-cc5a21e40f5c")
+		)
+		(pin "1"
+			(uuid "337a4c29-8f9a-4032-b1d5-087010a77f20")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13496,7 +15555,7 @@
 	)
 	(symbol
 		(lib_id "Library:C0402")
-		(at 185.42 118.11 0)
+		(at 88.9 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13506,7 +15565,7 @@
 		(dnp no)
 		(uuid "1f9553d7-d346-4f7d-bcc4-ee14693347c3")
 		(property "Reference" "C2"
-			(at 186.436 115.824 0)
+			(at 89.916 124.714 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13517,7 +15576,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 186.182 120.65 0)
+			(at 89.662 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13527,8 +15586,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 186.3852 121.92 0)
+		(property "Footprint" "Library:C_0402_1005Metric"
+			(at 89.8652 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13539,7 +15598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 118.11 0)
+			(at 88.9 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13550,7 +15609,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 185.42 118.11 0)
+			(at 88.9 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13577,7 +15636,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 130.81 0)
+		(at 20.32 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13585,9 +15644,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "29fe5b46-e4f1-4c7a-a7e8-b8bd4cf1e6ff")
-		(property "Reference" "#PWR017"
-			(at 166.37 137.16 0)
+		(uuid "2cbe49e9-df29-4699-bdad-770bc5df5221")
+		(property "Reference" "#PWR030"
+			(at 20.32 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13598,7 +15657,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 134.62 0)
+			(at 23.368 124.968 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13608,7 +15667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 130.81 0)
+			(at 20.32 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13619,7 +15678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 130.81 0)
+			(at 20.32 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13630,7 +15689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 130.81 0)
+			(at 20.32 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13641,12 +15700,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "62900a47-315e-4fcd-a198-9acd563eaaf0")
+			(uuid "fca4011e-f7ba-4fed-ab2c-e17859ad5350")
 		)
 		(instances
 			(project "HC32F460JEUA_robot_controller"
 				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
-					(reference "#PWR017")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -13654,7 +15713,7 @@
 	)
 	(symbol
 		(lib_id "Library:XT30PW-M")
-		(at 19.05 27.94 0)
+		(at 17.78 15.24 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13664,7 +15723,7 @@
 		(dnp no)
 		(uuid "31ffc1d1-792c-475f-b023-4759a63fe250")
 		(property "Reference" "CN1"
-			(at 25.4 30.48 0)
+			(at 20.32 26.924 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13674,7 +15733,7 @@
 			)
 		)
 		(property "Value" "XT30PW-M"
-			(at 25.4 33.02 0)
+			(at 23.622 28.956 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13684,7 +15743,7 @@
 			)
 		)
 		(property "Footprint" "Library:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-			(at 25.4 38.1 0)
+			(at 7.62 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13695,7 +15754,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_Changzhou-Amass-Elec-XT30PW-MMale-head_C431092.html"
-			(at 25.4 40.64 0)
+			(at 5.08 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13706,7 +15765,7 @@
 			)
 		)
 		(property "Description" "XT30PW-M"
-			(at 19.05 27.94 0)
+			(at 17.78 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13717,7 +15776,7 @@
 			)
 		)
 		(property "Manufacturer" "AMASS(艾迈斯)"
-			(at 25.4 43.18 0)
+			(at 2.54 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13728,7 +15787,7 @@
 			)
 		)
 		(property "LCSC Part" "C431092"
-			(at 25.4 45.72 0)
+			(at 0 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13792,7 +15851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Library:C_0402_1005Metric"
 			(at 59.3852 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -13852,7 +15911,7 @@
 		(dnp no)
 		(uuid "414d2cb8-19fc-42b4-aa6b-456172a31a2a")
 		(property "Reference" "R3"
-			(at 265.176 107.95 90)
+			(at 260.858 107.696 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13873,7 +15932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Library:R_0402_1005Metric"
 			(at 261.112 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -14154,7 +16213,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 170.18 29.21 0)
+		(at 212.09 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14165,7 +16224,7 @@
 		(fields_autoplaced yes)
 		(uuid "46967b09-3018-4e2a-9c3a-c47c125e4899")
 		(property "Reference" "#PWR01"
-			(at 170.18 33.02 0)
+			(at 212.09 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14176,7 +16235,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 170.18 24.13 0)
+			(at 212.09 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14186,7 +16245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 29.21 0)
+			(at 212.09 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14197,7 +16256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 29.21 0)
+			(at 212.09 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14208,7 +16267,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 170.18 29.21 0)
+			(at 212.09 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14225,6 +16284,523 @@
 			(project "HC32F460JEUA_robot_controller"
 				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 16.51 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5cc93d93-b073-4576-b4d4-19e6ac43a4d6")
+		(property "Reference" "#PWR028"
+			(at 16.51 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 16.51 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 16.51 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 16.51 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 16.51 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b58e32b1-e01d-4609-a7bb-0dd3e0dfb94f")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:C0402")
+		(at 229.87 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5d34603b-5900-4b3e-b31f-da061b7fc576")
+		(property "Reference" "C9"
+			(at 229.616 115.062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 229.616 110.744 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:C_0402_1005Metric"
+			(at 230.8352 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 229.87 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "49ad6090-c2b0-4198-bd28-eb6ff7684972")
+		)
+		(pin "1"
+			(uuid "c5018dd3-72a5-4060-9833-5150771bca54")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 234.95 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5d6ec30d-f1ec-45d9-acb4-5fb7da46dbbd")
+		(property "Reference" "#PWR025"
+			(at 234.95 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 120.396 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60f21dcc-36e5-451e-a491-677db77f32b1")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 88.9 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5dc6e742-edd5-47d1-9e34-9333b38f74b8")
+		(property "Reference" "#PWR022"
+			(at 88.9 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 88.9 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 88.9 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "602f7af5-79e4-4143-b4f5-2cdb28336c3c")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:TPS54335ADRCR")
+		(at 57.15 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6019003f-f1eb-4aa5-bf7f-39152dc8fe51")
+		(property "Reference" "U2"
+			(at 70.104 152.654 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS54335ADRCR"
+			(at 70.358 154.686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:VSON-10_L3.0-W3.0-P0.50-TL-EP"
+			(at 69.85 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/DC-DC-Converters_Texas-Instruments-Texas-Instruments-TPS54335ADRCR_C473400.html"
+			(at 69.85 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TPS54335ADRCR"
+			(at 57.15 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 69.85 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C473400"
+			(at 69.85 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d8f4e19c-05ed-4412-9e5f-0db222d93f44")
+		)
+		(pin "1"
+			(uuid "80a02d34-4ad2-4997-b690-94030f1579f1")
+		)
+		(pin "8"
+			(uuid "85daccef-ba6a-40df-8eed-fc3092b81c72")
+		)
+		(pin "7"
+			(uuid "b605cc71-d228-4795-b514-817ab1fcd8d4")
+		)
+		(pin "3"
+			(uuid "1004085f-fe08-417f-9e72-1743c7de189e")
+		)
+		(pin "9"
+			(uuid "f2be301c-8caf-4f3b-9895-71b3dff34d39")
+		)
+		(pin "5"
+			(uuid "35cb743a-1324-42ee-8564-7534fdd30045")
+		)
+		(pin "6"
+			(uuid "c955876e-06a6-43d3-ae94-e0433de28885")
+		)
+		(pin "4"
+			(uuid "18474110-163b-4c49-87f0-571da14d1467")
+		)
+		(pin "11"
+			(uuid "958c4106-96a9-487f-bb83-99b622967d6b")
+		)
+		(pin "10"
+			(uuid "15ca9cbc-9d41-4cef-a079-2f4625c77433")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 21.59 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6019ad63-c8ba-4186-a55a-4a050ccd72ad")
+		(property "Reference" "#PWR031"
+			(at 21.59 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 21.59 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 21.59 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b19ee87-484d-40f6-b4c8-065f95e67d32")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -14400,7 +16976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Library:R_0402_1005Metric"
 			(at 39.37 84.582 90)
 			(hide yes)
 			(show_name no)
@@ -14450,7 +17026,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 27.94 0)
+		(at 276.86 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14458,9 +17034,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7eb8b162-5bc1-4958-a270-0421972b1dbb")
-		(property "Reference" "#PWR03"
-			(at 34.29 34.29 0)
+		(uuid "7b22644c-296c-411d-9436-c808fd83f7a8")
+		(property "Reference" "#PWR018"
+			(at 276.86 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14470,8 +17046,8 @@
 				)
 			)
 		)
-		(property "Value" "PGND"
-			(at 34.29 31.75 0)
+		(property "Value" "GND"
+			(at 276.86 120.396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14481,7 +17057,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 27.94 0)
+			(at 276.86 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14492,7 +17068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 27.94 0)
+			(at 276.86 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14503,7 +17079,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 27.94 0)
+			(at 276.86 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14514,12 +17090,190 @@
 			)
 		)
 		(pin "1"
-			(uuid "bc6061a9-8920-4233-abf5-edc07a79a7c9")
+			(uuid "159483e8-ae25-4c54-856f-33ff0c7a9fd3")
 		)
 		(instances
 			(project "HC32F460JEUA_robot_controller"
 				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
-					(reference "#PWR03")
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7b4986e2-7928-4aef-88e7-4ccc7718b98b")
+		(property "Reference" "#PWR027"
+			(at 45.72 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "416e1ece-5715-497e-9553-afe3a9e4b97f")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:ASMD2920-700-30V")
+		(at 26.67 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8529c92d-7ac3-4f44-b6af-afb3fe34a057")
+		(property "Reference" "F1"
+			(at 35.56 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ASMD2920-700-30V"
+			(at 34.544 25.908 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:F2920"
+			(at 31.75 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "ASMD2920-700-30V"
+			(at 32.512 27.178 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JDTfuse(集电通)"
+			(at 31.75 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C55218557"
+			(at 31.75 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e2677f5-07f6-4204-802a-05c165055f02")
+		)
+		(pin "2"
+			(uuid "1bb84414-9d42-401e-8b5d-4bd369ba3297")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -14624,8 +17378,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V_USB"
-			(at 47.625 107.95 0)
+		(property "Value" "+5V"
+			(at 48.514 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14674,6 +17428,160 @@
 			(project "HC32F460JEUA_robot_controller"
 				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 247.65 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d8b6411-30a3-4450-b53a-0edb833093c5")
+		(property "Reference" "#PWR020"
+			(at 247.65 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 247.142 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 247.65 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5efb6fed-70c4-4862-9b72-d63f8affd291")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8dbda89a-6786-43ed-a430-d5f4455165cb")
+		(property "Reference" "#PWR026"
+			(at 229.87 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 120.396 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79b6f96e-8153-4134-b3a6-9985e1ee303e")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -14758,7 +17666,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 54.61 0)
+		(at 184.15 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14766,10 +17674,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9f2a1027-c22c-4929-b710-44f39bcc28d6")
 		(property "Reference" "#PWR02"
-			(at 167.64 60.96 0)
+			(at 184.15 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14780,7 +17687,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 59.69 0)
+			(at 184.15 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14790,7 +17697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 54.61 0)
+			(at 184.15 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14801,7 +17708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 54.61 0)
+			(at 184.15 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14812,7 +17719,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 54.61 0)
+			(at 184.15 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14829,6 +17736,241 @@
 			(project "HC32F460JEUA_robot_controller"
 				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 229.87 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a2368125-d611-4d54-9a07-5227ff9d51e2")
+		(property "Reference" "#PWR010"
+			(at 229.87 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 226.314 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 229.87 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0982b8d-697e-495b-9ffc-bd8d4e60c783")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:C0402")
+		(at 38.1 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab31277e-061d-45b7-8714-43405e170e3e")
+		(property "Reference" "C11"
+			(at 37.084 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33p"
+			(at 36.83 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:C_0402_1005Metric"
+			(at 41.91 137.4648 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 38.1 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "221ab966-bcdf-4294-a0a9-e279d67f4e33")
+		)
+		(pin "2"
+			(uuid "1668b0ec-60cd-4c77-94cd-725131c1c01e")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 236.22 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ae0e7f60-be1e-425c-ae3d-62711ab2fef3")
+		(property "Reference" "#PWR024"
+			(at 236.22 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 97.028 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.22 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f08eba1f-c5ac-4f74-a1fb-ac5ea11b8edc")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -14913,7 +18055,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 135.89 0)
+		(at 60.96 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14923,7 +18065,7 @@
 		(dnp no)
 		(uuid "b7cb9249-812e-4611-98be-f651c35c9ee7")
 		(property "Reference" "#PWR016"
-			(at 154.94 142.24 0)
+			(at 60.96 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14934,7 +18076,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 139.7 0)
+			(at 60.96 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14944,7 +18086,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 135.89 0)
+			(at 60.96 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14955,7 +18097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 135.89 0)
+			(at 60.96 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14966,7 +18108,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 135.89 0)
+			(at 60.96 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14983,6 +18125,87 @@
 			(project "HC32F460JEUA_robot_controller"
 				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:C0402")
+		(at 43.18 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc5a9f2a-353a-41f6-b3c2-8c3e1e9df2b9")
+		(property "Reference" "C10"
+			(at 44.196 124.714 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 43.942 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:C_0402_1005Metric"
+			(at 44.1452 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 43.18 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac2fa1ca-48fc-443f-9dbe-63f0441c55c4")
+		)
+		(pin "2"
+			(uuid "803be625-a653-413a-a0c9-f39305fc10e3")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -15060,6 +18283,87 @@
 			(project "HC32F460JEUA_robot_controller"
 				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:C0603")
+		(at 31.75 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c366eb72-1673-41ef-8d76-df948d52e9cf")
+		(property "Reference" "C12"
+			(at 32.512 124.968 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 32.385 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:C_0603_1608Metric"
+			(at 32.7152 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 31.75 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "536324a6-289d-468f-8b58-7e2dbab0ba12")
+		)
+		(pin "1"
+			(uuid "ed552cd3-2929-4cb2-a06b-5a028c3dd2b5")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -15194,6 +18498,164 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 247.65 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc69b96d-5c49-4537-b252-1ae5aa08af11")
+		(property "Reference" "#PWR019"
+			(at 247.65 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 120.396 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fabdcc48-373a-49ab-ab80-943378147ff0")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:C0402")
+		(at 240.03 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d001d47c-e486-4535-b749-464ab87ac70d")
+		(property "Reference" "C8"
+			(at 244.094 93.726 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 246.126 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:C_0402_1005Metric"
+			(at 236.22 96.2152 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 240.03 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "45a4e5d8-9192-40b9-9e9c-2b27163f50e3")
+		)
+		(pin "1"
+			(uuid "cbb4a03f-32bd-4d4d-9508-734b83a856b0")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:R0402")
 		(at 39.37 101.6 270)
 		(unit 1)
@@ -15226,7 +18688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Library:R_0402_1005Metric"
 			(at 39.37 99.822 90)
 			(hide yes)
 			(show_name no)
@@ -15275,6 +18737,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Library:C0603")
+		(at 22.86 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d20e1419-4444-4c17-a1ce-62168a652d82")
+		(property "Reference" "C14"
+			(at 23.622 132.588 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 23.495 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:C_0603_1608Metric"
+			(at 23.8252 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 22.86 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d91ca72d-7ce6-45cf-8170-35665e752f74")
+		)
+		(pin "1"
+			(uuid "b7f20ea4-635a-45be-9281-39d97371813a")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:C0402")
 		(at 52.07 74.93 0)
 		(unit 1)
@@ -15307,7 +18850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Library:C_0402_1005Metric"
 			(at 53.0352 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -15357,7 +18900,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 16.51 27.94 0)
+		(at 17.78 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15367,7 +18910,7 @@
 		(dnp no)
 		(uuid "dc708f0f-1ff8-4391-85d6-969c04aedcd0")
 		(property "Reference" "#PWR04"
-			(at 16.51 34.29 0)
+			(at 17.78 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15378,7 +18921,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 16.51 31.75 0)
+			(at 17.78 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15388,7 +18931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 16.51 27.94 0)
+			(at 17.78 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15399,7 +18942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 16.51 27.94 0)
+			(at 17.78 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15410,7 +18953,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 16.51 27.94 0)
+			(at 17.78 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15465,7 +19008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Library:C_0402_1005Metric"
 			(at 46.6852 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -15508,6 +19051,448 @@
 			(project "HC32F460JEUA_robot_controller"
 				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:C0603")
+		(at 16.51 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e27bf394-8e65-4bd7-b24c-74fb35a364a7")
+		(property "Reference" "C15"
+			(at 17.272 132.588 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 17.145 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:C_0603_1608Metric"
+			(at 17.4752 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 16.51 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 16.51 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cf63cec9-084a-4161-afa5-01dcd44a3a10")
+		)
+		(pin "1"
+			(uuid "dd08fa93-0210-44f9-a803-fe8f2f74cdf3")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:R0402")
+		(at 38.1 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e528f6ec-472b-44ae-94cd-e80c3482dff4")
+		(property "Reference" "R7"
+			(at 39.37 135.382 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "28k"
+			(at 39.878 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:R_0402_1005Metric"
+			(at 38.1 135.128 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 38.1 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "23a181f2-cb14-4ae8-8119-64e9a7d657e8")
+		)
+		(pin "1"
+			(uuid "d642e329-0e65-4fdd-83f9-0434a2d31518")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e6046cf7-5576-4018-9b60-3714178490d9")
+		(property "Reference" "#PWR023"
+			(at 173.99 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PGND"
+			(at 173.99 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c63dc57f-27dc-45aa-b675-e380363a65b2")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:R0402")
+		(at 45.72 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7349710-7b95-4758-945b-f5ef3efc5726")
+		(property "Reference" "R6"
+			(at 48.006 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k"
+			(at 45.72 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:R_0402_1005Metric"
+			(at 43.942 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e08ffa4e-7d1e-4a7c-8c95-76f50b547d0a")
+		)
+		(pin "1"
+			(uuid "07032348-4922-4f97-8bbc-eba3b7820d5d")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:BSZ088N03MS G")
+		(at 52.07 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e757580a-b7ba-4808-aa61-0df11be7892e")
+		(property "Reference" "Q1"
+			(at 53.594 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSZ088N03MS G"
+			(at 54.102 31.496 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:PG-TSDSON-8_L3.3-W3.3-P0.65-BL"
+			(at 53.594 32.004 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Infineon-Technologies-BSZ088N03MS-G_C534684.html"
+			(at 59.944 38.354 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BSZ088N03MS G"
+			(at 45.72 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Infineon(英飞凌)"
+			(at 59.944 40.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C534684"
+			(at 59.944 43.434 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b5e6e8a1-3d01-4b77-89f4-8529f7f216e1")
+		)
+		(pin "7"
+			(uuid "a542de5b-d506-4e1a-8b64-7559d20aaa63")
+		)
+		(pin "8"
+			(uuid "2dab556f-e0a8-44ae-8fdf-3f21ac6bfb27")
+		)
+		(pin "9"
+			(uuid "733a8246-3f4e-4f11-a471-b814cf5bd98f")
+		)
+		(pin "3"
+			(uuid "cdd4fc63-daa6-4eb3-aeb8-2f8a0f53833e")
+		)
+		(pin "1"
+			(uuid "dd0450ba-280a-499b-9c7d-c69ce4ce85d9")
+		)
+		(pin "5"
+			(uuid "32a03bd9-1088-4de2-a499-ad99ce1e51af")
+		)
+		(pin "6"
+			(uuid "6971215b-a83d-4d07-8be3-047ff6507a8b")
+		)
+		(pin "4"
+			(uuid "d9918d1e-b53f-4255-a810-55277dac244a")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -15623,7 +19608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Library:C_0402_1005Metric"
 			(at 65.7352 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -15672,8 +19657,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Library:L0630")
+		(at 38.1 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f35767bc-1215-4403-8ab2-1c5fddc3bb97")
+		(property "Reference" "L1"
+			(at 38.1 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L0630"
+			(at 38.1 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:L_Changjiang_FXL0630"
+			(at 38.1 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 38.1 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "92a41b80-5031-4e72-891c-833216c9e323")
+		)
+		(pin "1"
+			(uuid "dd9ff909-92dd-487e-8736-a4f100ea7cde")
+		)
+		(instances
+			(project "HC32F460JEUA_robot_controller"
+				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:HC32F460JEUA-QFN48TR")
-		(at 193.04 21.59 0)
+		(at 204.47 20.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15683,7 +19748,7 @@
 		(dnp no)
 		(uuid "f362e9b1-4292-4ae5-9855-f2f74070e2a0")
 		(property "Reference" "U1"
-			(at 224.79 85.09 0)
+			(at 236.22 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15693,7 +19758,7 @@
 			)
 		)
 		(property "Value" "HC32F460JEUA-QFN48TR"
-			(at 226.314 36.322 0)
+			(at 237.744 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15703,7 +19768,7 @@
 			)
 		)
 		(property "Footprint" "Library:QFN-48_L5.0-W5.0-P0.35-TL-EP3.7"
-			(at 224.79 87.63 0)
+			(at 236.22 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15714,7 +19779,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Other-Processors-and-Microcontrollers-MCUs_HDSC-HC32F460JEUA-QFN48TR_C784657.html"
-			(at 224.79 90.17 0)
+			(at 236.22 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15725,7 +19790,7 @@
 			)
 		)
 		(property "Description" "HC32F460JEUA-QFN48TR"
-			(at 227.33 24.13 0)
+			(at 238.76 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15736,7 +19801,7 @@
 			)
 		)
 		(property "Manufacturer" "XHSC(小华)"
-			(at 224.79 92.71 0)
+			(at 236.22 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15747,7 +19812,7 @@
 			)
 		)
 		(property "LCSC Part" "C784657"
-			(at 224.79 95.25 0)
+			(at 236.22 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15914,8 +19979,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 26.67 19.05 0)
+		(lib_id "power:GND")
+		(at 16.51 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15923,9 +19988,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f5490f1b-b234-4a65-8fee-43bf27f9f46e")
-		(property "Reference" "#PWR05"
-			(at 26.67 22.86 0)
+		(uuid "fb4fa8f7-dad9-48a3-bb4d-897ae9830bec")
+		(property "Reference" "#PWR029"
+			(at 16.51 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15935,8 +20000,8 @@
 				)
 			)
 		)
-		(property "Value" "+24V_VCC_IN"
-			(at 26.67 15.24 0)
+		(property "Value" "GND"
+			(at 16.51 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15946,7 +20011,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 19.05 0)
+			(at 16.51 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15957,7 +20022,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 19.05 0)
+			(at 16.51 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15967,8 +20032,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 26.67 19.05 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 16.51 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15979,12 +20044,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cab5a847-fe6f-4393-af96-e1091dbfbb35")
+			(uuid "7b04c0fc-ccc8-49db-8f7d-4db267499edd")
 		)
 		(instances
 			(project "HC32F460JEUA_robot_controller"
 				(path "/e4743b35-ca84-411d-a203-63bc6558e79f"
-					(reference "#PWR05")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)

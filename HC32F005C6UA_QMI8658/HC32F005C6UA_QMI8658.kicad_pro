@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -203,7 +209,14 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.05,
+        0.1,
+        0.25,
+        0.5,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +243,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -240,7 +258,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.1"
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -465,9 +483,9 @@
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
-      "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "pin_not_driven": "warning",
+      "pin_to_pin": "error",
+      "power_pin_not_driven": "warning",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -492,7 +510,7 @@
     ]
   },
   "meta": {
-    "filename": "HC32F460JEUA_robot_controller.kicad_pro",
+    "filename": "HC32F005C6UA_QMI8658.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -653,14 +671,6 @@
     "meta": {
       "version": 1
     },
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -668,18 +678,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "HC32F460JEUA_robot_controller.kicad_sch",
-        "name": "根目录",
-        "uuid": "e4743b35-ca84-411d-a203-63bc6558e79f"
+        "filename": "HC32F005C6UA_QMI8658.kicad_sch",
+        "name": "HC32F005C6UA_QMI8658",
+        "uuid": "2303fc81-e03a-4c6c-93af-23c6c8ce54bf"
       }
     ],
-    "used_designators": "U1-5,D1,#PWR1-31,Q1,CN1-2,USB1,R1-8,C1-15,F1,L1",
+    "used_designators": "U1-5,USB1-2,D1,#PWR6-40,C1,C3-17,R1-7,SW1-2,CN1",
     "variants": []
   },
   "sheets": [
     [
-      "e4743b35-ca84-411d-a203-63bc6558e79f",
-      "根目录"
+      "2303fc81-e03a-4c6c-93af-23c6c8ce54bf",
+      "HC32F005C6UA_QMI8658"
     ]
   ],
   "text_variables": {},

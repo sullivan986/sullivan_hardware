@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2.83 0)
 		(layer "F.Fab")
-		(uuid "50477a74-4930-4534-b92b-2003843df590")
+		(uuid "de24e2e9-d239-4f51-a8bb-010c92d62af7")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "WCH_QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm"
 		(at 0 2.83 0)
 		(layer "F.Fab")
-		(uuid "e0ebcb42-d8b5-4d27-9c3e-e901de3c1769")
+		(uuid "873c5d5a-8615-47e4-b58b-373eff0efa1a")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c48430c0-7fd1-4cb1-8144-6604497124aa")
+		(uuid "bc73920f-cc53-4e1d-9ad8-767fcdb6f897")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a2095112-6b23-4949-9ab1-0c1b5a31b439")
+		(uuid "4250ff5a-9587-427b-a261-6621815f475a")
 		(effects
 			(font
 				(size 1.27 1.27)
