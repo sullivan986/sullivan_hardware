@@ -51,7 +51,7 @@
 	)
 	(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 		(at 0 0 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(hide yes)
 		(uuid "237cded5-1a0a-4085-ac38-318d103ac02c")
 		(effects

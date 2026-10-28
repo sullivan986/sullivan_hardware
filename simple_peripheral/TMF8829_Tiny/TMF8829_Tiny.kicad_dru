@@ -1,0 +1,55 @@
+(version 1)
+
+# ============================================================================
+# 嘉立创（JLCPCB）双面板 / 1oz 成品铜厚 / 标准工艺
+# 依据: https://www.jlc.com/portal/1/serviceGuide
+# ============================================================================
+#
+# 语法要点（写错会导致该规则被静默丢弃，DRC 看着正常但其实没查）:
+#   1. (condition ...) 必须写在 rule 层级，不能写进 (constraint ...)。
+#      constraint 里只接受 min / max / opt / within_diff_pairs。
+#   2. A.Pad_Type 的合法值是 'SMD' / 'Through-hole' / 'NPTH, mechanical' /
+#      'Connect'，没有 'NPTH' 这种写法。
+#   3. 本文件必须是无 BOM 的 UTF-8。
+#
+# 设计分工:
+#   - 绝对下限（线宽、线隙、过孔、孔间距、板边、丝印、文字）已经写在
+#     TMF8829_Tiny.kicad_pro 的 board.design_settings.rules 里作为全局硬下限；
+#   - 网络类 Default 保留 0.2mm 线宽 / 0.2mm 间距作为「设计目标」，高于嘉立创下限；
+#   - 本文件只补充「全局规则表达不了」的三条：插件孔孔径、插件孔焊环、
+#     插件孔之间的孔边距。其余不要在 .dru 里重复，否则自定义规则会覆盖网络类设置。
+#
+# 已在 .kicad_pro 中生效的嘉立创下限（此处仅备查，不重复定义）:
+#   min_track_width             0.127mm   单双面板最小线宽
+#   min_clearance               0.127mm   单双面板最小线隙
+#   min_via_diameter            0.5mm     最小过孔外径
+#   min_through_hole_diameter   0.3mm     最小过孔内径
+#   min_via_annular_width       0.1mm     过孔焊环 (0.5-0.3)/2
+#   min_hole_to_hole            0.254mm   过孔孔边距
+#   min_copper_edge_clearance   0.3mm     CNC 锣边到铜
+#   min_silk_clearance          0.15mm    丝印到焊盘
+#   min_text_height             1.0mm     字符高度
+#   min_text_thickness          0.15mm    字符线宽
+#   solder_mask_to_copper       0.05mm    阻焊开窗单边扩展
+#   min_groove_width            0.5mm     钻槽最小槽宽
+# ============================================================================
+
+
+# 插件孔最小孔径 0.5mm —— 嘉立创原文「孔壁有铜或无铜，最小孔做0.5mm」，
+# 更小会油墨堵孔或喷锡堵孔。孔壁有铜/无铜都要管，所以不区分 NPTH。
+(rule "JLC pad drill 0.5mm"
+	(constraint hole_size (min 0.5mm))
+	(condition "A.Type == 'Pad'"))
+
+
+# 插件孔焊环：嘉立创建议 0.25mm，极限 0.18mm，这里按极限值卡。
+# 只对金属化孔有意义，NPTH 定位孔无铜环，用 isPlated() 排除。
+(rule "JLC pad annular ring 0.18mm"
+	(constraint annular_width (min 0.18mm))
+	(condition "A.Type == 'Pad' && A.isPlated()"))
+
+
+# 插件孔孔边到孔边 0.45mm —— 过近会断钻头或孔内无铜
+(rule "JLC pad hole to hole 0.45mm"
+	(constraint hole_to_hole (min 0.45mm))
+	(condition "A.Type == 'Pad' && B.Type == 'Pad'"))

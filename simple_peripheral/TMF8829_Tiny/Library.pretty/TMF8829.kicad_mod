@@ -6,7 +6,7 @@
 	(descr "TMF8829")
 	(property "Reference" "REF**"
 		(at 0 -5.528 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(hide yes)
 		(uuid "d43049c6-dee0-41b5-83b7-00eca47f2e2f")
 		(effects
@@ -293,6 +293,17 @@
 		(roundrect_rratio 0.1)
 		(solder_mask_margin 0.05)
 		(uuid "5b2c3cfb-a753-419c-af84-144db32a22b7")
+	)
+	(fp_rect
+		(start -1.700 -4.492)
+		(end 1.700 1.708)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4fe16ac2-f3d5-4141-95a2-f730fbdab279")
 	)
 	(embedded_fonts no)
 	(embedded_files

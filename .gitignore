@@ -41,3 +41,44 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# ---------------------------------------------------------------------------
+# Fabrication outputs — 派生产物，从 .kicad_pcb 一条命令即可重新生成，
+# 不进 git。要分发给别人时放 GitHub Release（带版本号的 zip）。
+# ---------------------------------------------------------------------------
+
+# 整个下单输出目录（gerber / 钻孔 / BOM / 坐标 / 网表 / 打包 zip）
+production/
+**/production/
+
+# Gerber（KiCad 默认扩展名 + JLCPCB 常用别名扩展名）
+*.gbr
+*.gbrjob
+*.gtl
+*.gbl
+*.gts
+*.gbs
+*.gto
+*.gbo
+*.gtp
+*.gbp
+*.gm1
+*.gko
+*-job.gbrjob
+
+# 钻孔文件与钻孔图
+*.drl
+*.xln
+*-drl_map.gbr
+
+# IPC-2581 / ODB++ / Gerber X2 打包
+*.ipc
+*.odb
+*.tgz
+
+# ---------------------------------------------------------------------------
+# 3D 模型：本工程所有元件模型都已内嵌进 .kicad_sch / .kicad_pcb
+# （kicad-embed:// 链接），不再依赖外部 STEP 目录。
+# ---------------------------------------------------------------------------
+*.3dshapes/
+fabrication-toolkit-options.json
